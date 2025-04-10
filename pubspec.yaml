@@ -1,0 +1,45 @@
+name: cards_management
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.0.15
+  provider: ^6.0.5
+  cupertino_icons: ^1.0.8
+  encrypt: ^5.0.3
+  shared_preferences: ^2.2.0
+  supabase_flutter: ^2.8.4
+  uuid: ^4.3.3
+  flutter_local_notifications: ^17.0.0  # Check for the latest version on pub.dev
+  timezone: ^0.9.2  # Needed for scheduling notifications
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.6
+  hive_generator: ^2.0.1
+
+flutter:
+  uses-material-design: true
+
+  # Correctly define assets here
+  assets:
+    - assets/register.jpg
+    - assets/login.jpg
+    - assets/reg.jpg
+    - assets/register.jpg
+    - assets/forgot-icon.jpg
+    - assets/forgot-password.jpg
+    - assets/card.jpg
+    - assets/home.jpg
